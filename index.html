@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>IS Scatterplot</title>
+</head>
+<body>
+
+    <svg id="canvas">
+        <text id="title" y="20" x="275">Doping in Professional Bicycle Racing</text>
+    </svg>
+    <!-- Acá crearemos un div con el id 'legend' para completar el userStory #13 de FreeCodeCamp -->
+    <div id="legend">
+        Year (x) vs Time (y) <br />
+        Green = No Doping Allegation<br/>
+        Orange = Doping Allegation
+    </div>
+    <!-- Este div con el id #tooltip será invisible, para que al hacer mouseover muestre infromacion sobre el punto que se está visulizando -->
+    <div id="tooltip">
+        
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
